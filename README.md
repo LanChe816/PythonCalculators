@@ -1,68 +1,8 @@
-import time
-import os
-print("----------------")
-print("| 科 学 计 算 器 |")
-print("----------------")
-print("|  1   2   3   |")
-print("----------------")
-print("|  4   5   6   |")
-print("----------------")
-print("|  7   8   9   |")
-print("----------------")
-print("| +  -  *  /   |")
-print("----------------")
-os.system('cls')
-def progress_bar() :
-    if __name__ == '__main__':
-        progress_bar()
-for i in range(101):
-    print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-    time.sleep(0.01)
-print("                            ")
-number1 = int(input("请输入第1个数字:"))
-number2 = int(input("请输入第2个数字:"))
-def add(number1, number2):
-    return number1 + number2
-def subtract(number1, number2):
-    return number1 - number2
-def multiply(number1, number2):
-    return number1 * number2
-def divide(number1, number2):
-    return number1 / number2
-letter = input("请输入运算符号，仅支持+-*/:")
-if letter == '+':
-    def progress_bar():
-        for i in range(101):
-            print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-            time.sleep(0.004)
-    print(number1, "+", number2, "=", add(number1, number2))
-
-elif letter == '-':
-    def progress_bar():
-        for i in range(101):
-            print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-            time.sleep(0.004)
-    print(number1, "-", number2, "=", subtract(number1, number2))
-
-elif letter == '*':
-    def progress_bar():
-        for i in range(101):
-            print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-            time.sleep(0.004)
-    print(number1, "*", number2, "=", multiply(number1, number2))
-
-elif letter == '/':
-    def progress_bar():
-        for i in range(101):
-            print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-            time.sleep(0.004)
-    print(number1, "/", number2, "=", divide(number1, number2))
-
-else:
-    def progress_bar():
-        for i in range(101):
-            print(f'\r清理缓存: {"#" * i}{"." * (100 - i)} {i}%', end='')
-            time.sleep(0.004)
-    print("运算符号无效")
-if __name__ == '__main__':
-    progress_bar()
+copyright 小兽雾淞 All rights Reserved
+这是一个python计算器
+闲着没事搞的
+2024翔安区创客大赛编程创客二等奖（不知道怎么拿的，主题只扣了数字两个字）作品（本人写的1.0版本）
+在2.0添加了游戏
+V2.0游戏码：START GAME 2048
+V3.0游戏码：2048和井字旗
+V4.0尚不成熟，移除了游戏
